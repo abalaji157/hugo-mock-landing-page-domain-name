@@ -8,4 +8,4 @@ menu:
 
 # Contact
 
-Contact asbalaji@seas.upenn.edu for any inquiries. 
+Contact asbalaji@seas.upenn.edu for any inquiries at all. 
