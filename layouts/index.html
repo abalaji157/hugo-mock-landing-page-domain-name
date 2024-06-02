@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://abalaji157.github.io">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
     <title>Flix Finder</title>
     <link rel="stylesheet" href="{{ `css/style.css` | relURL }}">
 </head>
@@ -23,18 +23,6 @@
     <section class="section container my-3">
         {{ partial "features" . }}
     </section>
-
-    <!--
-    <section class="section container my-3">
-      <h3 class="text-secondary text-center my-5">Latest Posts</h3>
-      {{ partial "latest-posts" . }}
-    </section>
-
-    <section class="section container my-3">
-      <h3 class="text-secondary text-center my-5">Featured Pages</h3>
-      {{ partial "featured-pages" . }}
-    </section>
-    -->
 
     {{ end }}
 </body>
